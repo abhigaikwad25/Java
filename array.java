@@ -26,6 +26,6 @@ public class array{
 
         
         //Random
-        System.out.println("your luck out of 10 : "+(int)(Math.random()*10));
+        System.out.println("your luck out of 10 : "+(int)(Math.random()));
     }
 }
