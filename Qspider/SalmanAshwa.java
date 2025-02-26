@@ -200,3 +200,10 @@ class salmanAshwa{
         System.out.println("one's Currency Count : "+one);
     }
 }
+
+
+
+
+
+
+//write a program o find user given number is perfect number or not
