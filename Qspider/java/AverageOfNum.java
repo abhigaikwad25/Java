@@ -18,3 +18,14 @@ class AverageOfNum{
         
     }
 }
+
+
+
+
+
+
+
+
+//write a java program to print best of sum of even digits equal to some of odd digits otherwise print wrost
+
+

@@ -41,3 +41,31 @@
 
 
 
+//Armstrong Number
+class abc{
+    public static void main(String[] args){
+        int num=153;
+        int temp=num;
+        int sum=0;
+        int count=0;
+        while(temp>0){
+            int rem=temp%10;
+            count++;
+            temp/=10;
+        }
+        temp=num;
+        while(temp>0){
+            int rem=temp%10;
+            sum+=Math.pow(rem,count);
+            temp/=10;
+        }
+
+        if(num==sum){
+            System.out.println("Armstrong No");
+        }
+        else{
+            System.out.println("Not Armstrong No");
+        }
+    }
+}
+
